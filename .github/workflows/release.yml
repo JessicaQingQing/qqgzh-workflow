@@ -6,12 +6,11 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: qqgzh-workflow
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python -m unittest discover -s tests -v
+      - run: python -m unittest discover -s qqgzh-workflow/tests -v
+      - run: python qqgzh-workflow/scripts/validate_profile.py qqgzh-workflow/profiles/example/profile.json
+      - run: python qqgzh-workflow/scripts/audit_html.py qqgzh-workflow/examples/passing-article.html
