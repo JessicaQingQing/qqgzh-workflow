@@ -1,0 +1,17 @@
+{
+  "name": "qqgzh-workflow-marketplace",
+  "owner": {
+    "name": "青青Jessica"
+  },
+  "metadata": {
+    "description": "仿写·定位·排版·审查——青青的公众号 AI 工作流插件。"
+  },
+  "plugins": [
+    {
+      "name": "qqgzh-workflow",
+      "source": "./",
+      "description": "AI 驱动的公众号内容工作流：链接仿写、定位探索、WeChat 兼容排版、发布前审查、连接 CTA。三个入口适配不同阶段。",
+      "version": "0.1.0"
+    }
+  ]
+}

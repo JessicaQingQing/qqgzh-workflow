@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>{{title}}</title></head><body>
+<article class="article" style="max-width:640px;margin:0 auto;font-size:16px;line-height:1.8;color:#2F2F2F;">
+
+  <!-- 封面图（可选，不用就删掉这段） -->
+  <img src="{{cover_url}}" alt="{{cover_alt}}" style="width:100%;margin-bottom:1.5em;">
+
+  <h1 style="font-size:22px;font-weight:700;color:#1A1A1A;margin-bottom:0.5em;">{{title}}</h1>
+  <p class="lead" style="font-size:17px;color:#6A6A6A;margin-bottom:1.5em;">{{lead}}</p>
+
+  <!-- 正文（自己改 {{body}} 里面的内容） -->
+  {{body}}
+
+  <!-- 要点总结（必填，读者读完带走的一句话） -->
+  <section class="takeaway" style="background:#F0F7F4;padding:14px 16px;margin:2em 0;border-left:3px solid {{accent_color}};">
+    <strong>带走一句话：</strong>{{takeaway}}
+  </section>
+
+  <!-- 商业落点（可选，没产品就把这段整个删掉） -->
+  <section class="cta" style="background:#FFF7EB;padding:14px 16px;margin:1.5em 0;text-align:center;">
+    <strong>{{offer_name}}</strong>
+    <p style="margin:0.5em 0 0 0;">{{offer_invitation}}</p>
+  </section>
+
+  <p style="text-align:center;color:#999;margin:2em 0;">— END —</p>
+
+  <!-- 读者连接（每篇固定，公众号名和暗号改成你自己的） -->
+  <section class="connect" style="background:#F7F4ED;padding:14px 16px;margin:1.5em 0;text-align:center;">
+    <p style="font-size:16px;color:#24323D;line-height:1.6;margin:0;">{{connect_invitation}}</p>
+  </section>
+
+  <p style="font-size:14px;color:#8B9DAF;text-align:center;margin:1em 0;">{{author_bio}}</p>
+</article></body></html>
