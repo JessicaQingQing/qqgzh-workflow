@@ -1,17 +1,17 @@
 {
-  "name": "qqgzh-workflow-marketplace",
+  "name": "career-asset-studio-marketplace",
   "owner": {
     "name": "青青Jessica"
   },
   "metadata": {
-    "description": "仿写·定位·排版·审查——青青的公众号 AI 工作流插件。"
+    "description": "青青职业资产工坊——从职业经历挖掘到公众号发布的全流程 AI 工作流。四层递进方法：价值探索、资产盘点与方向、内容创作（含仿写）、渠道发布（微信排版+审查+发布）。"
   },
   "plugins": [
     {
-      "name": "qqgzh-workflow",
+      "name": "career-asset-studio",
       "source": "./",
-      "description": "AI 驱动的公众号内容工作流：链接仿写、定位探索、WeChat 兼容排版、发布前审查、连接 CTA。三个入口适配不同阶段。",
-      "version": "0.1.0"
+      "description": "青青职业资产工坊：把 HR 人才评估逻辑 + 创业者产品思维 + AI 工程方法融合成的四层内容工作流。帮职场人从"我值什么"走到"我写什么、怎么发"。八个 Skill 自动路由，Profile 驱动，阻断式审查。",
+      "version": "0.2.0"
     }
   ]
 }

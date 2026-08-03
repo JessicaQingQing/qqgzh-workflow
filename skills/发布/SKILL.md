@@ -1,11 +1,11 @@
 ---
 name: 发布
-description: Guide the user through publishing their article — whether they paste manually, use an API script, or just want a preview first. Conversational, not a gate.
+description: 微信公众号发布引导。陪用户走完最后一段——手动粘贴、API 推送或先存草稿。这是公众号渠道适配器，只在用户明确要发布到公众号时使用。
 ---
 
-# WeChat Publish — 对话式发布引导
+# 微信公众号发布
 
-你已经有了审查通过的 HTML 文章。接下来这一步不是冷冰冰的"你自己贴去吧"——我陪你走完最后这一段。
+你已经有了审查通过的 HTML 文章。这是**公众号发布适配器**——只在用户明确要把内容发到微信公众号时才用。接下来这一步不是冷冰冰的"你自己贴去吧"——我陪你走完最后这一段。
 
 ## 先别急着发——聊两句
 
@@ -26,7 +26,7 @@ description: Guide the user through publishing their article — whether they pa
    - 直接发
    - 存草稿，明天/过几天再发
 
-## 根据你的情况，我给你最合适的路线
+## 根据你的情况，给你最合适的路线
 
 ### 如果你有认证服务号 + 想自动推送
 
@@ -82,10 +82,9 @@ description: Guide the user through publishing their article — whether they pa
 
 跟我说一声"已发"。我可以帮你记一下：
 - 这篇发了什么话题
-- 用了什么暗号（如果你有暗号体系的话）
 - 发了之后的反应——帮你慢慢积累"什么话题读者更感兴趣"
 
-这不是必须的，但你如果想认真做号，有一个记录会很有用。
+这不是必须的，但你如果想认真做内容，有一个记录会很有用。
 
 ---
 

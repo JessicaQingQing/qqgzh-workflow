@@ -5,7 +5,7 @@ def run(*args): return subprocess.run([sys.executable,*map(str,args)],cwd=ROOT,t
 class ValidatorTests(unittest.TestCase):
     def test_passing_validation(self):
         r=run('scripts/validate_profile.py','profiles/example/profile.json'); self.assertEqual(r.returncode,0,r.stdout+r.stderr)
-        r=run('scripts/audit_html.py','examples/passing-article.html'); self.assertEqual(r.returncode,0,r.stdout+r.stderr); self.assertIn('AUDIT TOTAL: 6',r.stdout)
+        r=run('scripts/audit_html.py','examples/passing-article.html'); self.assertEqual(r.returncode,0,r.stdout+r.stderr); self.assertIn('AUDIT TOTAL: 8',r.stdout)
     def test_invalid_profile(self):
         r=run('scripts/validate_profile.py','tests/fixtures/invalid-profile.json'); self.assertEqual(r.returncode,1); self.assertIn('credential-like key',r.stdout)
     def test_forbidden_css(self):
@@ -17,8 +17,6 @@ class ValidatorTests(unittest.TestCase):
     def test_sensitive_local_path_and_secret_detection(self):
         r=run('scripts/audit_html.py','tests/fixtures/sensitive-local.html'); self.assertEqual(r.returncode,1); self.assertIn('FAIL sensitive_content',r.stdout)
     def test_build_excludes_private_material(self):
-        # Verify that the .gitignore covers private/, .env, and media files.
-        # The scripts layer is now internal — AI runs audits directly.
         gitignore = (ROOT/'.gitignore').read_text(encoding='utf-8')
         self.assertIn('private/', gitignore)
         self.assertIn('.env', gitignore)

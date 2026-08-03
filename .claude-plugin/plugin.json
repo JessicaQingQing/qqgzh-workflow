@@ -1,1 +1,1 @@
-{"schema_version":"1.0","name":"qqgzh-workflow","version":"0.1.0","description":"把你的 AI 变成懂公众号的搭子。仿写、定位探索、排版审查一站式工作流。","license":"CC-BY-NC-4.0","skills":["skills/主入口","skills/软广判断","skills/排版","skills/配图","skills/发前审查","skills/发布"]}
+{"schema_version":"1.0","name":"career-asset-studio","version":"0.2.0","description":"青青职业资产工坊——帮有专业积累的职场人，把经验变成看得见的职业资产和可持续的内容输出。四层递进方法：价值探索→资产与方向→内容创作→渠道发布。","license":"CC-BY-NC-4.0","skills":["skills/主入口","skills/职业经历挖掘","skills/资产盘点与方向","skills/商业连接","skills/排版","skills/配图","skills/发前审查","skills/发布"]}

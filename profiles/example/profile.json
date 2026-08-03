@@ -1,1 +1,86 @@
-{"schema_version":1,"brand":{"name":"Harborfield Notes","tagline":"Practical essays for thoughtful independent work","voice":["clear","grounded","generous"],"avoid":["pressure language","unsupported claims"],"style_notes":"仿写过程中逐渐沉淀的风格偏好——喜欢的开头方式、句子节奏、段落结构。每次仿写后AI自动更新。"},"audience":{"primary":"Independent professionals building calmer systems for meaningful work","needs":["clearer priorities","repeatable routines"]},"visual":{"accent_color":"#1F6F78","image_style":"warm documentary illustration","approved_image_hosts":["https://mmbiz.qpic.cn"]},"connection":{"primary_channel":"公众号私信","account_name":"Harborfield Notes","invitation":"对独立工作者的节奏实践感兴趣？关注公众号「Harborfield Notes」后私信「节奏」，一起聊聊。","wechat_id":""},"monetization":{"offers":[{"name":"Harborfield Field Guide","fit":"想建立固定周计划的独立工作者","cta":"如果你想把这个练习变成固定习惯，可以了解 Field Guide。"}],"claims_policy":"只使用私有知识库中可核实的事实，不夸大。"},"publishing":{"mode":"manual_draft_only","requires_explicit_confirmation":true}}
+{
+  "schema_version": 2,
+  "identity": {
+    "name": "陈则远",
+    "professional_background": "12年供应链管理，从采购专员做到供应链总监，经历过制造业、电商、跨境三种完全不同的供应链形态",
+    "key_experiences": [
+      {
+        "event": "2023年公司核心供应商突然断供，72小时内找到替代供应商并完成验厂和首批交付，避免了生产线停摆",
+        "capability": "危机中的供应链快速重组与供应商评估",
+        "evidence": "这件事后来被写进了公司的供应商风险管理手册，老板在年会上专门提了这件事",
+        "status": "confirmed"
+      },
+      {
+        "event": "跨境电商项目启动时，设计了一套库存共享机制，把国内和海外仓的库存打通，库存周转率提升了30%",
+        "capability": "跨模式供应链设计——不是照搬现有方案，而是根据业务需求重新设计",
+        "evidence": "这套机制后来推广到了另外两个新市场，被COO称为当年最好的运营创新",
+        "status": "confirmed"
+      },
+      {
+        "event": "带过7个采购新人，最常提醒他们的是'不要只看价格——先搞清楚对方的成本结构、产能弹性、和他们在行业里的位置'",
+        "capability": "供应商深度评估——不只是比价，是理解供应商的生意",
+        "evidence": "带的两个新人一年后都升了高级采购，分别独立负责了百万级品类",
+        "status": "confirmed"
+      },
+      {
+        "event": "电商大促期间，提前3个月做需求预测和库容规划，双十一期间零断货零爆仓——而前一年因为没有这套流程，爆仓损失了十几万",
+        "capability": "大促供应链规划与风险前置",
+        "evidence": "这套预测模板后来成了公司年度SOP，所有品类都在用",
+        "status": "confirmed"
+      }
+    ],
+    "voice": ["具体", "接地气", "有判断", "不端不装"],
+    "avoid": ["空洞的管理术语", "没有案例支撑的结论", "贩卖焦虑"]
+  },
+  "content": {
+    "directions": [
+      {
+        "label": "供应链人的实战笔记——不是教科书，是真踩过的坑和做对的决定",
+        "target_readers": "做了几年供应链但感觉自己在做执行而不是做判断的人；跨行业转供应链的人；想从采购/物流往管理方向走的人",
+        "sample_topics": [
+          "供应商说断就断——你的B计划不该只是备选名单",
+          "库存周转率提升30%：不是靠压供应商，是靠打通两个仓库",
+          "带采购新人，我第一件事是让他们忘掉'最低价'",
+          "大促前的库容规划：不做你就等着爆仓"
+        ],
+        "status": "active"
+      },
+      {
+        "label": "职场中层的判断力——怎么在信息不全的时候做决定、怎么让老板信任你的方案",
+        "target_readers": "正在从执行者往决策者方向走的职场中层",
+        "sample_topics": [
+          "老板说'这个供应商不行'——你怎么判断是真不行还是他没看到全貌",
+          "跨部门推一个方案，怎么让三个老大都不觉得自己被动了蛋糕"
+        ],
+        "status": "testing"
+      }
+    ],
+    "topic_bank": [
+      {"topic": "供应商突然断供，我72小时做了什么", "category": "经验案例", "source_event": "2023年供应商断供危机", "status": "drafted"},
+      {"topic": "库存共享：让国内和海外的货不再各管各的", "category": "经验案例", "source_event": "跨境电商库存共享机制", "status": "outlined"},
+      {"topic": "我面试采购时必问的一个问题", "category": "判断框架", "source_event": "带新人经验", "status": "seed"},
+      {"topic": "双十一之后我写了份复盘，第二年省了十几万", "category": "失败复盘", "source_event": "大促爆仓后建立的SOP", "status": "seed"},
+      {"topic": "供应链人最大的误区：以为'准时交货'就是结果", "category": "反常识观察", "source_event": "多年供应链管理体悟", "status": "seed"}
+    ]
+  },
+  "brand": {
+    "name": "则远的供应链手记",
+    "tagline": "一个供应链人的实战复盘，不教条，只说真踩过的坑",
+    "style_notes": "喜欢开门见山，不喜欢铺垫。每篇文章都有一个具体的事做锚点。偏好短句。"
+  },
+  "channels": {
+    "wechat": {
+      "enabled": true,
+      "account_name": "则远的供应链手记",
+      "publishing_mode": "manual_draft_only"
+    }
+  },
+  "connection": {
+    "enabled": true,
+    "invitation": "对供应链实战话题感兴趣？关注「则远的供应链手记」后私信「供应链」，一起聊聊你正在踩的坑。",
+    "offers": []
+  },
+  "publishing": {
+    "requires_explicit_confirmation": true
+  }
+}
